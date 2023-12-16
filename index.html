@@ -289,6 +289,7 @@
         <form id="contactForm" class="contact__form">
             <input type="text" id="name" placeholder="Krushna Zarekar" value="Krushna Zarekar" class="contact__input" readonly>
             <input type="email" id="email" placeholder="krishnazarekar72@gmail.com" value="krishnazarekar72@gmail.com" class="contact__input" readonly>
+            <input type="text" id="subject" placeholder="Subject..." class="contact__input">
             <textarea id="message" placeholder="Message" cols="30" rows="10" class="contact__input"></textarea>
             <input type="submit" value="Enter" class="contact__button button">
         </form>
@@ -342,7 +343,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const message = document.getElementById('message').value;
 
     // Generate the mailto link with prefilled information
-    const mailtoLink = `mailto:${email}?subject=Regarding%20Your%20Query&body=Dear%20${name},%0A%0A${message}`;
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=Dear%20${name},%0A%0A${message}`;
 console.log(name);
 console.log(message);
     // Redirect the user to the generated mailto link
