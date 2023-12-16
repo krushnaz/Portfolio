@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio_css.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <em class="nav__logo">email : krishnazarekar72@gmail.com</em>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i onclick="myFunction()" class='bx bx-menu '></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Krushna Zarekar</span><br>Software
+                    Developer</h1>
+
+                <a href="Files/KrushnaZarekarResume.pdf" class="button">download CV</a>
+            </div>
+
+            <div class="home__social">
+                <!-- <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a> -->
+                <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> -->
+                <!-- <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a> -->
+            </div>
+
+            <div class="home__img">
+                <img src="img/profile.png" alt="">
+
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="img/about.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Krushna</h2>
+                    <p class="about__text">
+
+                        I'm Krushna Zarekar, an MCA candidate at Sinhgad Institute of Management and Computer
+                        Application, Pune, deeply passionate about software development. My journey into the world of
+                        technology began during my BBA CA, where I built a strong academic foundation.
+                        <br><br>
+                        Driven by a profound interest in software development, I've honed my skills to craft intuitive
+                        and impactful solutions. My dedication to backend development has been instrumental in creating
+                        solutions that prioritize functionality and user experience.
+                        <br><br>
+                        My commitment to excellence in software development is unwavering, and I'm constantly seeking
+                        opportunities to enhance my expertise and create innovative solutions.
+
+                    </p>
+                </div>
+            </div>
+           
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+        
+            <div class="skills__container bd-grid">
+                <div class="skills__front-end">
+                   
+                    <h2 class="skills__subtitle text-center">Front End Skills</h2>
+             
+                    <p class="skills__text">
+                        Proficient in creating dynamic and visually appealing interfaces using various front-end technologies:
+                    </p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML</span>
+                        </div>
+                        <div class="skills__bar skills__S">
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS</span>
+                        </div>
+                        <div class="skills__bar skills__S">
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-bootstrap skills__icon'></i>
+                            <span class="skills__name">Bootstrap</span>
+                        </div>
+                        <div class="skills__bar skills__S">
+                           
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JavaScript</span>
+                        </div>
+                        <div class="skills__bar skills__S">
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">Angular</span>
+                        </div>
+                        <div class="skills__bar skills__S">
+                        </div>
+                    </div>
+                    
+                </div>
+        
+                <div class="skills__back-end">
+                    <h2 class="skills__subtitle text-center">Back End Skills</h2>
+                    <p class="skills__text">
+                        Experienced in building robust back-end systems and managing databases:
+                    </p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-code-alt skills__icon'></i>
+                            <span class="skills__name">Java SE</span>
+                        </div>
+                        <div class="skills__bar skills__S">
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-data skills__icon'></i>
+                            <span class="skills__name">JDBC</span>
+                        </div>
+                        <div class="skills__bar skills__S">
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-server skills__icon'></i>
+                            <span class="skills__name">Servlets</span>
+                        </div>
+                        <div class="skills__bar skills__S">
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-cube-alt skills__icon'></i>
+                            <span class="skills__name">Data Structures and Algorithms</span>
+                        </div>
+                        <div class="skills__bar skills__S">
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-data skills__icon'></i>
+                            <span class="skills__name">SQL</span>
+                        </div>
+                        <div class="skills__bar skills__S">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+ <!--===== WORK =====-->
+
+        <section class="work section" id="project">
+            <h2 class="section-title">Projects</h2>
+        
+            <div class="work__container bd-grid">
+                <div class="work__item">
+                    <h3>Financial Tracker</h3>
+                    <p>
+                        Developed <strong>Financial Tracker</strong> using Java, JSP, Servlets, HTML, CSS, JavaScript, and MySQL. Features include user registration, income/expense tracking, budget management, and detailed transaction history.
+                    </p>
+                    <p>
+                        <strong>Responsibilities</strong> included architecture, database design, and UI development. Implemented user registration/authentication, tracking modules, and optimized frontend-backend integration.
+                    </p>
+                    <p>
+                        <strong>Achievements</strong>: Successfully delivered a user-friendly solution, demonstrating proficiency in diverse technologies and earning positive user feedback.
+                    </p>
+                    <p>
+                        <strong>Technologies</strong>: Java, JSP, Servlets, HTML, CSS, JavaScript, MySQL.
+                    </p>
+                    <p>
+                        Strengthened skills in web development, database management, and showcased dedication to user-centric solutions and software innovation.
+                    </p>
+                    <br>
+                    <h5 class="github-link">
+                         <a href="https://github.com/krushnaz/FinancialTracker">
+                            <i class="fab fa-github"></i> Financial Tracker
+                        </a>
+                    </h5>
+                </div>
+                <div class="work__item">
+                    <h3>LearniFy E-Learning Platform</h3>
+                    <p>
+                        Developed <strong>LearniFy</strong>, an e-learning platform using HTML, CSS, JavaScript, Bootstrap, JSP, Servlets, and MySQL. Offers course catalogs, interactive lessons, user authentication, and progress tracking.
+                    </p>
+                    <p>
+                        <strong>Responsibilities</strong> involved requirements handling, design, backend, database, and testing. Implemented responsive design and secure authentication.
+                    </p>
+                    <p>
+                        <strong>Achievements</strong>: Launched a user-friendly platform with positive user feedback and academic recognition at a technology event.
+                    </p>
+                    <p>
+                        <strong>Technologies</strong>: HTML, CSS, JavaScript, Bootstrap, JSP, Servlets, MySQL.
+                    </p>
+                    <p>
+                        Enhanced technical skills in web development, software engineering, and gained experience in project management and teamwork.
+                    </p>
+                    <br>
+                    
+                    <h5 class="github-link">
+                         <a href="https://github.com/krushnaz/E-Learning-Platfrom-LearniFy">
+                            <i class="fab fa-github"></i> E-Learning Platform - Learnify
+                        </a>
+                    </h5>
+                </div>
+        
+                <div class="work__item">
+                    <h3>Doctor Appointment System</h3>
+                    <p>
+                        Developed a <strong>user-friendly Doctor Appointment System</strong> using HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL. Simplified appointment booking and patient record management.
+                    </p>
+                    <p>
+                        <strong>Responsibilities</strong> included designing a friendly interface, front-end development, client-side validation, database design, server-side scripting, and security implementation.
+                    </p>
+                    <p>
+                        <strong>Achievements</strong>: Successfully launched a user-friendly system, received positive feedback, and presented the project at a college-level technology event.
+                    </p>
+                    <p>
+                        <strong>Technologies</strong>: HTML, CSS, Bootstrap, JavaScript, PHP, MySQL.
+                    </p>
+                    <p>
+                        Improved technical skills in web development, software engineering, project management, teamwork, and communication through this project.
+                    </p>
+                    <br>
+                    <h5 class="github-link">
+                         <a href="https://github.com/krushnaz/Doctor-Appoinment-System">
+                            <i class="fab fa-github"></i> Doctor Appointment System
+                        </a>
+                    </h5>
+                </div>
+            </div>
+        </section>
+        
+
+        <!--===== CONTACT =====-->
+  
+        <section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact__container bd-grid">
+        <form id="contactForm" class="contact__form">
+            <input type="text" id="name" placeholder="Name" class="contact__input">
+            <input type="email" id="email" placeholder="Email" class="contact__input">
+            <textarea id="message" placeholder="Message" cols="30" rows="10" class="contact__input"></textarea>
+            <input type="submit" value="Enter" class="contact__button button">
+        </form>
+    </div>
+</section>
+
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Portfolio</p>
+        <div class="footer__social">
+            <!-- <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a> -->
+            <a href="https://www.instagram.com/krushna_zarekar/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/krushna_z" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/krushna-zarekar/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/krushnaz/" class="footer__icon"><i class='bx bxl-github'></i></a>
+        </div>
+        <p>&#169; 2023 copyright all right reserved</p>
+    </footer>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("nav-menu").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+
+    
+
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting via HTML (default behavior)
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Generate the mailto link with prefilled information
+    const mailtoLink = `mailto:${email}?subject=Regarding%20Your%20Query&body=Dear%20${name},%0A%0A${message}`;
+console.log(name);
+console.log(message);
+    // Redirect the user to the generated mailto link
+    window.location.href = mailtoLink;
+});
+
+
+    </script>
+</body>
+
+</html>
